@@ -1,0 +1,4 @@
+docker run -it --rm -v F:\furry_chart\project:/home/developer/project flutter_con /bin/bash
+
+adb tcpip 5555
+adb connect host.docker.internal:5555
